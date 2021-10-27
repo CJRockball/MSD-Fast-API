@@ -4,14 +4,14 @@ Using an XGBoost model to predict genre of a subset of the million song dataset.
 ## Run
 ### To Run from File
 * Clone the repo
-* In terminal go to folder and run `uvicorn main:app --reload`
-* open browser goto choose song to predict from the data test file by adding a number between 1 and 428 `127.0.0.1:8000/predict/?q=88` the predicted file will be added to the database.
+* In a terminal go to folder and run `uvicorn main:app --reload`
+* open browser choose song to predict from the data test file by adding a number between 1 and 428, `127.0.0.1:8000/predict/?q=88` the predicted song will be added to a database.
   
 ### To Run from Docker
 * Clone the repo
-* In terminal go to folder and run `docker build -t name .` 
-* then run `docker run -dp 8000:8000 name`
-* open browser goto choose song to predict from the data test file by adding a number between 1 and 428 `127.0.0.1:8000/predict/?q=88` the predicted file will be added to the database.
+* In a terminal go to folder and run `docker build -t name .` 
+* Then run `docker run -dp 8000:8000 name`
+* open browser choose song to predict from the data test file by adding a number between 1 and 428, `127.0.0.1:8000/predict/?q=88` the predicted song will be added to a database
 
 ## Functions
 * `127.0.0.1:8000/` blank page
