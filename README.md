@@ -13,4 +13,9 @@ Using an XGBoost model to predict genre of a subset of the million song dataset.
 * then run `docker run -dp 8000:8000 name`
 * open browser goto choose song to predict from the data test file by adding a number between 1 and 428 `127.0.0.1:8000/predict/?q=88` the predicted file will be added to the database.
 
-# Functions
+## Functions
+* `127.0.0.1:8000/` blank page
+* `127.0.0.1:8000/predict/?q=88` change the number to predict songs and commit to database
+* `127.0.0.1:8000/dataset` shows to 10 last songs commited to the database, genre and prediction confidence
+* `127.0.0.1:8000/dataset/list` makes list copy
+* `127.0.0.1:8000/sample/punk` shwos 10 samples from the db from the punk category
