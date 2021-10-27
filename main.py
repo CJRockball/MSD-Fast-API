@@ -111,7 +111,6 @@ def fetch_rows():
     result_set = db_fcn.get_db_sample()
     yield "Song title, Genre, Confidence\n"
     for i in result_set:
-        print(i)
         yield f"{i['Song title']},{i['Genre']},{['Confidence']}\n"
 
 # Use generator to get csv of last 10 samples in the db
