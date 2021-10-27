@@ -18,4 +18,4 @@ Using an XGBoost model to predict genre of a subset of the million song dataset.
 * `127.0.0.1:8000/predict/?q=88` change the number to predict songs and commit to database
 * `127.0.0.1:8000/dataset` shows to 10 last songs commited to the database, genre and prediction confidence
 * `127.0.0.1:8000/dataset/list` makes list copy
-* `127.0.0.1:8000/sample/punk` shwos 10 samples from the db from the punk category
+* `127.0.0.1:8000/sample/punk` shows 10 samples from the db from the punk category
